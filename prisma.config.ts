@@ -9,6 +9,6 @@ export default defineConfig({
     path: "prisma/migrations",
   },
   datasource: {
-    url: process.env["TRZY_URL"],
+    url: process.env["trzy_POSTGRES_URL"],
   },
 });

@@ -2,7 +2,7 @@
 // learn more about it in the docs: https://pris.ly/d/prisma-schema
 
 // Prisma 7 no longer allows `url` in the datasource block; the connection
-// string is read from TRZY_URL in prisma.config.ts.
+// string is read from trzy_POSTGRES_URL in prisma.config.ts.
 
 generator client {
   provider = "prisma-client"
